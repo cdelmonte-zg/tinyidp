@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "tinyidp": {
+      "command": "tinyidp-mcp",
+      "env": {
+        "TINYIDP_CONFIG_DIR": "./config"
+      }
+    }
+  }
+}

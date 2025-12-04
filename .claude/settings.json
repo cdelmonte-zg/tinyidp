@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tinyidp": {
+      "command": "python",
+      "args": ["-m", "tinyidp.mcp_server"],
+      "env": {
+        "TINYIDP_CONFIG_DIR": "./config"
+      }
+    }
+  }
+}
